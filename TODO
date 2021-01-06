@@ -1,0 +1,32 @@
+1- Penser a passer en const qd necessaire dans les appels de méthodes
+	--> fait pour bishop.c et bishop.h
+	--> fait pour board.c et board.h
+	--> fait pour castle.c et castle.h
+	--> fait pour color.c et color.h
+	--> fait pour coordinate.c et coordinate.h
+	--> fait pour king.c et king.h
+	--> fait pour knight.c et knight.h
+	--> fait pour move.c et move.h
+	--> fait pour pawn.c et pawn.h
+	--> fait pour piece.c et piece.h
+	--> fait pour queen.c et queen.h
+
+2- Penser a mettre les destructeurs dans toutes les structures  (----> tres important)
+	--> fait pour bishop
+	--> fait pour board
+	--> fait pour castle
+	--> fait pour color
+	--> fait pour coordinate
+	--> fait pour king
+	--> fait pour knight
+	--> fait pour move
+	--> fait pour pawn
+	--> fait pour piece
+	--> fait pour queen
+
+3- Représentation du board ? (position ???) à définir
+
+4- Mettre une fonction toString dans les structures (va nécessiter de réecrire la fonction printf mais ca peut faire
+   pas mal (qque chose du genre printf(queen) --> donne Coucou la piece est une reine blance dont les coordonnées 
+   sont (x, y). Mais je pense que l'on doit passer le type de l'objet dans le printf.
+
